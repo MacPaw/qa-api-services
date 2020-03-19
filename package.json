@@ -1,0 +1,32 @@
+{
+  "name": "qa-api-services",
+  "version": "0.0.0",
+  "description": "QA API libraries for Macpaw projects",
+  "main": "index.js",
+  "author": "Volodymyr Dobrygin",
+  "contributors": [
+    "Maksym Shykov",
+    "Vladyslav Filimonov",
+    "Andrii Pocherpailo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MacPaw/qa-api-services.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "$(npm bin)/eslint --max-warnings 0 ."
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "then-request": "^6.0.2"
+  },
+  "devDependencies": {
+    "@macpaw/eslint-config-webservices": "^1.1.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-promise": "^3.7.0"
+  }
+}
