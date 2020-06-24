@@ -1,19 +1,25 @@
+'use strict';
+
 module.exports = {
   extends: [
-    '@macpaw/eslint-config-webservices/rules/base',
-    '@macpaw/eslint-config-webservices/rules/filenames',
-    '@macpaw/eslint-config-webservices/rules/promise',
+    '@macpaw/eslint-config-webservices-base',
   ],
-  parser: 'espree',
+
+  plugins: [
+    'async-await',
+  ],
+
+  env: {
+    node: true,
+    es6: true,
+    browser: true,
+  },
+
   parserOptions: {
-    ecmaVersion: 8,
     sourceType: 'script',
   },
-  plugins: ['async-await'],
+
   rules: {
-    strict: ['warn', 'global'],
-    'no-unused-expressions': ['off'],
-    'newline-after-var': ['off'],
-    'filenames/match-regex': ['off'],
+    'no-console': 'off',
   },
 };
