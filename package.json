@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:MacPaw/qa-api-services.git"
+    "url": "git+https://github.com/MacPaw/qa-api-services.git"
   },
-  "license": "UNLICENSED",
+  "license": "ISC",
   "scripts": {
     "lint": "eslint ."
   },
