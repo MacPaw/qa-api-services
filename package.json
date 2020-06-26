@@ -9,6 +9,9 @@
     "Vladyslav Filimonov",
     "Andrii Pocherpailo"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MacPaw/qa-api-services.git"
