@@ -1,6 +1,6 @@
 {
   "name": "@macpaw/qa-api-services",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "QA API libraries for MacPaw projects",
   "main": "index.js",
   "author": "Volodymyr Dobrygin",
