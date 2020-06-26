@@ -1,5 +1,5 @@
 {
-  "name": "qa-api-services",
+  "name": "@macpaw/qa-api-services",
   "version": "1.0.2",
   "description": "QA API libraries for MacPaw projects",
   "main": "index.js",
@@ -9,9 +9,6 @@
     "Vladyslav Filimonov",
     "Andrii Pocherpailo"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MacPaw/qa-api-services.git"
